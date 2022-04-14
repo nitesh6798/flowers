@@ -1,0 +1,37 @@
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.container,.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    width: 40%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 2px 10px #000;
+}
+img{
+    width: 30%;
+}
+hr{
+    width: 60%;
+    height: 1px;
+    background-color: #fff;
+}
+button{
+    border-radius: 3em;
+    padding: .8em 1.5em;
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+p{
+    margin: 1em auto;
+    width: 90%;
+}
